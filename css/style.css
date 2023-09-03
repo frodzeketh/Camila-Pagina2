@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 150px;
+    height: 101px;
    
   }
   
@@ -20,7 +20,23 @@
     
   }
   .opciones .nav-link { /* OPCIONES NAVBAR */
+    
     font-size: 18px;
     color: #510571;
-    font-family: "Inter", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+
+  }
+
+  .opciones .nav-link:hover {
+    color: #ff0000; /* Cambiar el color de texto al pasar el ratón por encima (por ejemplo, a rojo) */
+  }
+
+
+  .opciones .navbar-nav {
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Alinea el texto al centro (opcional) */
+    display: flex;
+    gap: 30px;
   }
