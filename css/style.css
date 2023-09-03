@@ -1,0 +1,26 @@
+* { /* RESET */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo-principal { /* LOGO PRINCIPAL */
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+   
+  }
+  
+  .opciones { /* NAVBAR OPCIONES */
+    background-image: linear-gradient(to right, #F38979, #FDE56B, #D466BC);
+    width: 100%;
+    height: 100px;
+    
+  }
+  .opciones .nav-link { /* OPCIONES NAVBAR */
+    font-size: 18px;
+    color: #510571;
+    font-family: "Inter", sans-serif;
+  }
